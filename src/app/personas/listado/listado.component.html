@@ -1,0 +1,7 @@
+<h1>Listado chido de personas</h1>
+
+<button onclick="eliminarNombre('Alonso')">Eliminar nombre</button>
+
+<ul>
+  <li *ngFor="let persona of personas; let i = index">{{ i+1 }}{{ persona }}</li>
+</ul>

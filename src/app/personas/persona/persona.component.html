@@ -1,0 +1,16 @@
+<h1>{{ nombre }}</h1>
+
+<dl>
+    <td>Nombre: </td>
+    <dd>{{ nombre }}</dd>
+
+    <td>Edad: </td>
+    <dd>{{ edad }}</dd>
+
+    <td>NOMBRE MAYUSCULAS</td>
+    <dd>{{ nombre.toUpperCase() }}</dd>
+</dl>
+
+<button class="btn btn-success mr-3" (click)="cambiarNombre()">Cambiar nombre</button>
+<button class="btn btn-success mr-3" (click)="cambiarEdad()">Cambiar edad</button>
+
